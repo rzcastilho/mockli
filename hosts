@@ -1,0 +1,87 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost.localdomain localhost Rodrigos-MacBook-Pro.local kcluster.krthomolog.com.br
+255.255.255.255	broadcasthost
+::1             localhost
+
+127.0.0.1	10-1-2-62.default.pod.cluster.local
+127.0.0.1	server captacao-in-olimpo captacao-in-colaborar captacao-ad-inscricao-olimpo captacao-ad-inscricao-colaborar mongodbsrv.istio-system rabbitmqsrv.istio-system axonserver tokendb captacao-config-server
+
+# KROTON PUBLIC
+189.20.97.118   apidev1.krthomolog.com.br apiqa1.krthomolog.com.br
+3.14.114.153	artifactory.kroton.com.br
+189.20.97.118	jenkins.kroton.com.br
+189.20.97.118	portainer.kroton.com.br
+189.20.97.118	registry.kroton.com.br
+189.20.97.118	tfs.kroton.com.br
+#189.20.97.118	kclustertst.krthomolog.com.br
+#189.20.97.118	kcluster.krthomolog.com.br
+#189.20.97.118	api.kroton.com.br
+#172.16.176.13	api.kroton.com.br
+#172.26.0.31	krtn1-scan.pitagoras.apollo.br
+172.26.0.31	portais.kroton.com.br
+#172.26.0.31	api.kroton.com.br
+#127.0.0.1	api.kroton.com.br
+#189.20.97.118	api.kroton.com.br
+#172.27.5.251	apidev1.krthomolog.com.br
+#172.26.0.31	apiqa1.krthomolog.com.br
+#187.86.217.26	api.kroton.com.br
+
+#172.16.176.13	api.kroton.com.br
+
+127.0.0.1	rabbitmqfinanceirosrv rabbitmqcaptacaosrv rabbitmqsrv
+127.0.0.1	mongodbfinanceirosrv mongodbcaptacaosrv mongodbsrv mongodb-servicos
+127.0.0.1	consul-server
+#10.100.2.53	rabbitmqfinanceirosrv rabbitmqcaptacaosrv rabbitmqsrv
+#10.100.2.53	mongodbfinanceirosrv mongodbcaptacaosrv mongodbsrv mongodb-servicos
+#10.100.2.54	rabbitmqfinanceirosrv rabbitmqcaptacaosrv rabbitmqsrv
+#10.100.2.54	mongodbfinanceirosrv mongodbcaptacaosrv mongodbsrv mongodb-servicos
+
+#10.100.2.53	api.kroton.com.br
+
+# KROTON LOCAL
+172.16.176.21	admdcsvtfs01 tfs
+10.100.2.54	kroton-docker.repo
+10.100.2.53	kroton-elk
+
+#187.86.217.4	pda.krotondigital.com.br
+#187.86.217.7	pda.krotondigital.com.br
+#172.16.140.44	pda.krotondigital.com.br
+#172.16.140.45	pda.krotondigital.com.br
+
+35.201.66.184	info.kroton.com.br
+
+# PDA
+#127.0.0.1	pda.krotondigital.com.br
+#127.0.0.1	disclaimer.krotondigital.com.br
+
+# VIVO
+# QA - ESTEIRA 2
+10.129.165.26	osb-soa
+10.129.165.27	alsb3-soa
+
+# ODONTOPREV
+172.18.224.55	brdtcpocaud01 #registry.odontoprev.com.br
+172.18.224.56	brdtcpocaud02 #registry.odontoprev.com.br
+172.18.224.57	brdtcpocaud03 #registry.odontoprev.com.br
+172.18.224.58	brdtcpocaud04 #registry.odontoprev.com.br
+
+127.0.0.1	consul.odontoprev.com.br minio.odontoprev.com.br rabbitmq.odontoprev.com.br registry.odontoprev.com.br kong.odontoprev.com.br kong-dashboard.odontoprev.com.br jenkins.odontoprev.com.br pwa.odontoprev.com.br kong.odontoprev.com.br camunda.odontoprev.com.br nexus.odontoprev.com.br wso2.odontoprev.com.br
+#192.168.99.100	consul.odontoprev.com.br minio.odontoprev.com.br rabbitmq.odontoprev.com.br registry.odontoprev.com.br kong.odontoprev.com.br kong-dashboard.odontoprev.com.br jenkins.odontoprev.com.br pwa.odontoprev.com.br kong.odontoprev.com.br camunda.odontoprev.com.br nexus.odontoprev.com.br wso2.odontoprev.com.br
+
+172.16.136.242	krtn1db01-vip
+172.16.136.244	krtn1db02-vip
+172.16.136.246	krtn1db03-vip
+172.16.136.248	krtn1db04-vip
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+
+# Added by Mockli (Mockatron Client)
+127.0.0.1	www.dneonline.com api.punkapi.com
+# End of Section
